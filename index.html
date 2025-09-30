@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Poder de la Música</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+  <div>
+  <header>
+    <h1>El Poder de la Música</h1>
+    <div class="burger-menu">
+    <span></span>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="list__item"><a class="link__link" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+        <li class="list__item"><a class="link__link" onclick="mostrarSeccion('beneficios')">Beneficios</a></li>
+        <li class="list__item"><a class="link__link" onclick="mostrarSeccion('instrumentos')">Instrumentos</a></li>
+        <li class="list__item"><a class="link__link" onclick="mostrarSeccion('citas')">Citas</a></li>
+        <li class="list__item"><a class="link__link" onclick="mostrarSeccion('contacto')">Comentario</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <main class="contenido">
+      <section id="inicio" class="active">
+        <h2>La música</h2>
+        <div class="text__p"> 
+          <p>
+            La música es una forma de expresión artística universal que utiliza el sonido y el silencio organizados en el tiempo. Se compone de elementos como el ritmo, la melodía, la armonía y el timbre, y puede ser vocal, instrumental o una combinación de ambos.
+          </p> <br>
+          <img src="https://cdn-icons-png.freepik.com/512/2792/2792315.png" width="150px">
+        </div>
+        <div class="text__p">
+          <p> 
+            Desde tiempos antiguos, la música ha acompañado al ser humano en rituales, celebraciones, guerras, momentos de dolor o alegría, y ha sido usada como medio de comunicación, de protesta o de conexión espiritual. Es capaz de evocar emociones, despertar recuerdos, inspirar ideas y fortalecer vínculos humanos.
+          </p> <br>
+          <img src="https://cdn-icons-png.flaticon.com/512/2917/2917767.png" width="150px">
+        </div>
+        <div class="text__p">
+          <p>
+            Más allá del entretenimiento, la música cumple funciones educativas, terapéuticas y sociales. Está presente en todas las culturas y ha evolucionado con ellas, adaptándose a cada época y contexto.
+          </p> <br>
+          <img src="https://cdn-icons-png.freepik.com/512/4781/4781841.png" width="150px">
+        </div>
+        <div class="text_p">
+          <p>
+            En resumen, la música es arte, lenguaje, emoción y cultura, todo en uno.
+          </p> <br>
+        </div>
+      </section>
+
+      <section id="beneficios">
+        <h2>Beneficios de la Música</h2>
+        <ul class="benefits-list">
+          <li>🎵 Reduce el estrés y la ansiedad.</li>
+            <p>Escuchar música relajante puede disminuir los niveles de cortisol (la hormona del estrés) y ayudar a calmar la mente.</p><br>
+          <li>🎵 Mejora el estado de ánimo.</li>
+            <p>La música puede aumentar la producción de dopamina, la "hormona de la felicidad", ayudando a combatir la tristeza o la depresión.</p><br>
+          <li>🎵 Estimula la memoria y concentración.</li>
+            <p>Escuchar o tocar música activa muchas áreas del cerebro. Es especialmente útil en terapias para personas con Alzheimer o problemas de memoria.</p><br>
+          <li>🎵 Fortalece la creatividad.</li>
+            <p>La música puede inspirar nuevas ideas, desbloquear la mente y fomentar la imaginación.</p><br>
+          <li>🎵 Mejora la calidad del sueño.</li>
+            <p>Escuchar música suave antes de dormir puede ayudar a conciliar el sueño más rápido y tener un descanso más profundo.</p><br>
+          <li>🎵 Ayuda en terapias de recuperación emocional.</li>
+            <p>A través de la musicoterapia, muchas personas pueden expresar emociones difíciles, superar traumas y mejorar su bienestar psicológico.</p><br>
+        </ul>
+      </section>
+
+      <section id="instrumentos">
+        <h2>Instrumentos</h2>
+        <p>Existe una gran variedad de instrumentos musicales y de múltiple variedad de estilos y funcionalidades, entre los cuales están:</p>
+        <div class="carousel">
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2016/11/22/23/45/acoustic-1851248_1280.jpg" alt="" class="image">
+              <p class="title">Guitarra acústica</p>
+          </div>
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2023/03/31/18/44/piano-7890735_1280.jpg" alt="" class="image">
+              <p class="title">Piano</p>
+          </div>
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2014/06/21/20/09/violin-374096_1280.jpg" alt="" class="image">
+              <p class="title">Violín</p>
+          </div>
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2019/03/27/14/49/sax-4085168_1280.jpg" alt="" class="image">
+              <p class="title">Saxofón</p>
+          </div>
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2016/11/19/21/05/bass-guitar-1841186_1280.jpg" alt="" class="image">
+              <p class="title">Bajo eléctrico</p>
+          </div>
+          <div class="carousel__item">
+              <img src="https://cdn.pixabay.com/photo/2016/05/07/21/20/music-1378224_1280.jpg" alt="" class="image">
+              <p class="title">Batería</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="citas">
+        <h2>Frases Inspiradoras</h2>
+        <p class="quote">"La música es una revelación más alta que toda sabiduría y filosofía." – Ludwig van Beethoven</p>
+        <p class="quote">"Sin música, la vida sería un error." – Friedrich Nietzsche</p>
+        <p class="quote">"Una buena cosa de la música es que, cuando te golpea, no sientes dolor." – Bob Marley</p>
+        <p class="quote">"Si no fuera físico, probablemente sería músico. A menudo pienso en música. Vivo mis sueños despierto en música. Veo mi vida en términos de música." – Albert Einstein</p>
+        <p class="quote">"La música no miente. Si hay algo que cambiar en este mundo, solo puede hacerse a través de la música." – Jimi Hendrix</p>
+        <p class="quote">"La música es la taquigrafía de la emoción." – León Tolstói</p>
+      </section>
+
+      <section id="contacto">
+        <h2>Dános tu opinión de esta información</h2>
+        <form onsubmit="enviarFormulario(event)">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu correo electrónico" required />
+          <textarea rows="5" placeholder="Tu mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 El Poder de la Música. Todos los derechos reservados.</p>
+  </footer>
+
+<script src="index.js"></script>
+</body>
+</html>
